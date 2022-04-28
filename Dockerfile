@@ -6,7 +6,7 @@ COPY . .
 
 RUN go build main.go
 
-FROM alpine:3.15.4
+FROM scratch
 
 WORKDIR /usr/app/bin
 
